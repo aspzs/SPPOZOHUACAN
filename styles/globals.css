@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./markdown.css";
+
+* {
+  font-family: "Hind";
+}
+
+
+
+#banner{
+  background-color: transparent;
+}
+
+#banner Button{
+  background-color: #C0D4EA;
+  padding: 10px;
+  font-size: 23px;
+}
+
+
+
+#slide1{
+  z-index: 99;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.icono{
+  position: fixed;
+  top: 0;
+  margin-top: 88px;
+  margin-left: 75%;
+  z-index: -1;
+}
+
+#avisos{
+  margin-left: 20%;
+}
+
+#contacto{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  border-radius: 50px;
+  width: 85%;
+  padding: 50px;
+}
+
+input {
+  font-size: 1rem;
+  margin: 10px 0 10px 0px;
+  border-color: rgb(31, 28, 28);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #F0F3F7;
+  border: 1px solid;
+  box-shadow: 3px 5px 9px #9DB4CC;
+}
+
+textarea{
+  margin: 10px 0 10px 0px;
+  padding: 5px;
+  border: 1px solid;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  background-color: #F0F3F7;
+  font-size: 20px;
+  box-shadow: 3px 5px 9px #9DB4CC;
+}
+
+
+.name div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.enviar{
+  padding: 10px;
+  font-size: 20px;
+  width: 30%;
+  border: 1.5px solid;
+  border-radius: 55px;
+  color: black;
+  background-color: #F0F3F7;
+  box-shadow: 3px 5px 9px #9DB4CC;
+}
+
+.enviar:hover{
+  background-color: #749ECB;
+}
+
+textarea{
+  resize: none;
+}
+
+
+#titulo{
+  display: flex;
+  align-items: right;
+}
+
+#texto{
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#imagenTitulo{
+  height: 50%;
+  width: 50%;
+  padding-right: 10%;
+}
+
+.footer{
+  background: linear-gradient(to right, #B0B5BA ,#A0C7F2 50%, #B0B5BA 100%);
+  padding: 15px;
+}
+
+.textoFooter{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
