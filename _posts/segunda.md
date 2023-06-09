@@ -1,11 +1,13 @@
 ---
 date: '2022-07-15T11:50:54.000Z'
-title: Prueba
-tagline: This is a Tagline If you want to add.
+title: Reglamentos
+tagline: Reglamentos
 preview: >-
-  Prueba, prueba, prueba, prueba
+    Da click aquí para visitar el documento de Los Reglamentos de la administración.
 image: >-
-  https://images.unsplash.com/photo-1559660461-47334958d9c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJlc2ElMjBkZSUyMGFndWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60
+    https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80
+vinculo: >- 
+  https://www.duckduckgo.com
 ---
 
 # Heading One

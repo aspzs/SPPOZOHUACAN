@@ -8,7 +8,28 @@
   font-family: "Hind";
 }
 
+/* Detalle para celulares */
+@media (max-width:415px){
 
+  #imagenTitulo{
+    padding-top: 15%;
+  }
+
+  #banner Button{
+  background-color: #C0D4EA;
+  padding: 10px;
+  font-size: 23px;
+}
+
+#seccionDocs{
+  margin-bottom: 25%;
+}
+
+#cadaDoc{
+  margin-bottom: 50%;
+}
+}
+/* Se terminan los detalles */
 
 #banner{
   background-color: transparent;
@@ -59,9 +80,28 @@
 
 .container {
   border-radius: 50px;
-  width: 85%;
-  padding: 50px;
+  width: 100%;
+  padding: 20px;
 }
+
+.container img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width:1440px){
+  #avisosDivs{
+    transform: translateX(25%);
+  }
+
+  #seccionDocs{
+    margin-bottom: 5%;
+  }
+
+
+}
+
+
 
 input {
   font-size: 1rem;
@@ -117,16 +157,20 @@ textarea{
   align-items: right;
 }
 
+/* TITULO Y FOTO DE PORTADA */
 #texto{
-  margin-right: 10%;
+  margin-right: 5%;
   margin-bottom: 5%;
 }
 
 #imagenTitulo{
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   padding-right: 10%;
+  transform: translate();
 }
+
+/* FIN DE SECCION */
 
 .footer{
   background: linear-gradient(to right, #B0B5BA ,#A0C7F2 50%, #B0B5BA 100%);
@@ -139,4 +183,7 @@ textarea{
 }
 
 
-
+/* Seccion de pag acceso a la informacion
+#seccionDocs{
+  margin-bottom: 10%;
+} */

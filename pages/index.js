@@ -74,17 +74,17 @@ export default function Home() {
             <h2
               id="texto"
               ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl tablet:p-2 text-bold laptop:w-4/5"
+              className="text-3xl tablet:text-3xl laptop:text-3xl laptopl:text-6xl tablet:p-2 text-bold laptop:w-4/5"
             >
               {data.headerTaglineTwo}
             </h2>
-            <img id="imagenTitulo" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Girl in a jacket" width="auto" height="auto"></img>
+            <img id="imagenTitulo" src="https://raw.githubusercontent.com/aspzs/SPPOZOHUACAN/main/sanpedro.jpeg" alt="Girl in a jacket" width="auto" height="auto"></img>
           </div>
 
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-center font-semibold  text-blue-900">Avisos y Noticias</h1>
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-3 gap-4">
+          <h1 className="text-2xl text-center font-semibold  text-blue-900">Avisos</h1>
+          <div className="mt-2 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-4 gap-4" id="avisosDivs">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -105,6 +105,9 @@ export default function Home() {
                 key={index}
                 name={service.title}
                 description={service.description}
+                face = {service.face}
+                mailContacto={service.mailContacto}
+                whatsApp={service.whatsApp}
               />
             ))}
           </div>

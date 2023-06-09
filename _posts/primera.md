@@ -1,11 +1,13 @@
 ---
 date: "2022-07-08T11:50:54.000Z"
-title: Prueba
-tagline: This is a Tagline If you want to add.
+title: Estatutos del acta constitutiva
+tagline: Documento
 preview: >-
-  Aquí irían las noticias, con sus respextivas imagenes (son de prueba)
+  Da click aquí para visitar el documento de Los Estatutos del acta constitutiva.
 image: >-
- https://images.unsplash.com/photo-1501516069922-a9982bd6f3bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80
+  https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+vinculo: >- 
+  https://www.google.com
 ---
 
 # Heading One

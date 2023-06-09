@@ -16,6 +16,7 @@ const BlogEditor = ({ post, close, refresh }) => {
     tagline: post.tagline,
     preview: post.preview,
     image: post.image,
+    vinculo: post.vinculo
   });
 
   const savePost = async () => {
@@ -138,6 +139,20 @@ const BlogEditor = ({ post, close, refresh }) => {
                   setBlogVariables({
                     ...blogVariables,
                     image: e.target.value,
+                  })
+                }
+                className="w-full mt-2 p-4 hover:border-blue-400 rounded-md shadow-lg border-2"
+                type="text"
+              ></input>
+            </div>
+            <div className="mt-5 flex flex-col items-center">
+              <label className="w-full text-sx opacity-50">Link</label>
+              <input
+                value={blogVariables.vinculo}
+                onChange={(e) =>
+                  setBlogVariables({
+                    ...blogVariables,
+                    vinculo: e.target.value,
                   })
                 }
                 className="w-full mt-2 p-4 hover:border-blue-400 rounded-md shadow-lg border-2"

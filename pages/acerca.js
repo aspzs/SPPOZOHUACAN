@@ -35,7 +35,7 @@ const Resume = () => {
               className={`w-full 
               max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg`}>
               <h1 className="text-3xl font-bold">Acerca de nosotros</h1>
-              <img src="https://images.unsplash.com/photo-1527066236128-2ff79f7b9705?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80" className="w-3/2 mt-5 opacity-70"></img>
+              <img src="https://raw.githubusercontent.com/aspzs/SPPOZOHUACAN/main/sanpedro.jpeg" className="w-3/2 mt-5 opacity-70"></img>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
               <h2 className="text-xl mt-5 opacity-50">
                 {resume.description}
