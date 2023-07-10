@@ -6,6 +6,11 @@
 
 * {
   font-family: "Hind";
+  color: black;
+}
+body{
+  background-color: #e7ecf3;
+
 }
 
 /* Detalle para celulares */
@@ -28,6 +33,8 @@
 #cadaDoc{
   margin-bottom: 50%;
 }
+
+
 }
 /* Se terminan los detalles */
 
@@ -99,56 +106,6 @@
   }
 
 
-}
-
-
-
-input {
-  font-size: 1rem;
-  margin: 10px 0 10px 0px;
-  border-color: rgb(31, 28, 28);
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #F0F3F7;
-  border: 1px solid;
-  box-shadow: 3px 5px 9px #9DB4CC;
-}
-
-textarea{
-  margin: 10px 0 10px 0px;
-  padding: 5px;
-  border: 1px solid;
-  border-color: rgb(31, 28, 28);
-  border-radius: 5px;
-  background-color: #F0F3F7;
-  font-size: 20px;
-  box-shadow: 3px 5px 9px #9DB4CC;
-}
-
-
-.name div{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.enviar{
-  padding: 10px;
-  font-size: 20px;
-  width: 30%;
-  border: 1.5px solid;
-  border-radius: 55px;
-  color: black;
-  background-color: #F0F3F7;
-  box-shadow: 3px 5px 9px #9DB4CC;
-}
-
-.enviar:hover{
-  background-color: #749ECB;
-}
-
-textarea{
-  resize: none;
 }
 
 

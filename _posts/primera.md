@@ -1,13 +1,12 @@
 ---
-date: "2022-07-08T11:50:54.000Z"
+date: '2023-05-15T11:50:54.000Z'
 title: Estatutos del acta constitutiva
 tagline: Documento
 preview: >-
-  Da click aquí para visitar el documento de Los Estatutos del acta constitutiva.
-image: >-
-  https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+image: >- 
+  https://raw.githubusercontent.com/aspzs/contentADMSP/main/acta_constitutiva.png
 vinculo: >- 
-  https://www.google.com
+  https://drive.google.com/file/d/1KyPtHCREDNZ62xCSfRyau7i_Hle_icfY/view
 ---
 
 # Heading One

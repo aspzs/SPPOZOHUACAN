@@ -1,6 +1,14 @@
 {
   "/_app": "pages/_app.js",
+  "/acerca": "pages/acerca.html",
   "/_error": "pages/_error.js",
+  "/api/blog/edit": "pages/api/blog/edit.js",
+  "/api/portfolio": "pages/api/portfolio.js",
+  "/api/blog": "pages/api/blog.js",
+  "/edit": "pages/edit.html",
+  "/": "pages/index.html",
+  "/acceso_a_informacion": "pages/acceso_a_informacion.js",
+  "/acceso_a_informacion/[slug]": "pages/acceso_a_informacion/[slug].js",
   "/_document": "pages/_document.js",
-  "/acerca": "pages/acerca.js"
+  "/404": "pages/404.html"
 }

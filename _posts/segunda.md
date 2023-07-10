@@ -1,13 +1,12 @@
 ---
-date: '2022-07-15T11:50:54.000Z'
+date: '2023-05-15T11:50:54.000Z'
 title: Reglamentos
 tagline: Reglamentos
 preview: >-
-    Da click aquí para visitar el documento de Los Reglamentos de la administración.
 image: >-
-    https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80
+    https://raw.githubusercontent.com/aspzs/contentADMSP/main/reglamento_img.png
 vinculo: >- 
-  https://www.duckduckgo.com
+  https://drive.google.com/file/d/1O0oe1QaRj1oNcl2LoUNNIYYQ_BldtUuq/view?usp=sharing
 ---
 
 # Heading One

@@ -3,7 +3,7 @@
   "headerTaglineTwo": "Administración del Sistema de Agua Potable. San Pedro Pozohuacan.",
   "showCursor": false,
   "showBlog": true,
-  "darkMode": true,
+  "lightMode": true,
   "showResume": true,
   "socials": [
     {
@@ -15,11 +15,6 @@
       "id": "3",
       "title": "Email",
       "link": "mailto:pozosanpedrop@gmail.com"
-    },
-    {
-      "id": "4",
-      "title": "WhatsApp",
-      "link": "https://wa.me/0000000000"
     }
   ],
   "projects": [
@@ -44,8 +39,7 @@
       "title": "Nuestras redes sociales",
       "description": "Síguenos y contactanos mediante nuestras redes sociales",
       "face": "Facebook: Administración del sistema de agua potable San Pedro Pozohuacan",
-      "mailContacto": "Mail: pozosanpedrop@gmail.com",
-      "whatsApp": "Whatsapp: 0000000000"
+      "mailContacto": "Mail: pozosanpedrop@gmail.com"
     },
     {
       "id": "3",

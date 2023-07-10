@@ -42,63 +42,16 @@ const Resume = () => {
               </h2>
               <h2 className="text-xl mt-5 opacity-50">
               {resume.description2}
-              </h2>        
-            <div>
-            <form className="text-xl mt-5 opacity-50">
-              <h1 className="text-3xl font-bold" id="contacto">Contactanos</h1>
-              <div className="email block">
-                <label htmlFor="frm-email">Email</label>
-                <input 
-                   id="frm-email"
-                   type="email"
-                   name="email"
-                   autoComplete="email"
-                   required/>
-              </div>
-              <div className="block phone">
-                <label htmlFor="frm-phone">Telefono</label>
-                <input
-                   id="frm-phone"
-                   type="text"
-                   name="phone"
-                   autoComplete="Telefono"
-                   required/>
-              </div>
-              <div className="name block">
-                <div>
-                  <label htmlFor="frm-first">Nombre</label>
-                  <input
-                     id="frm-first"
-                     type="text"
-                     name="first"
-                     autoComplete="nombre"
-                     required/>
-                </div>
-                <div>
-                  <label hrmlFor="frm-last">Apellido</label>
-                  <input
-                     id="frm-last"
-                     type="text"
-                     name="nombre"
-                     autoComplete="family-name"
-                     required/>
-                </div>
-              </div>
-              <div className="message block">
-                <label htmlFor="frm-message">Mensaje</label>
-                <textarea id="frm-message" rows="6" name="mensaje"></textarea>
-              </div>
-              <div className="button block">
-                <button type="submit" className="enviar">Enviar</button>
-              </div>
-              </form>
+              </h2>      
+              
               <h3 className="w-4/6 text-xl mt-10">
                 <p className="mt-10">Nuestras redes sociales</p>
               </h3>
+
               <div>
                 <Socials />
-              </div>
-            </div>
+              </div>  
+
             </div>
           </div>
         )}
